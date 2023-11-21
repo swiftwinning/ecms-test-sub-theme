@@ -1,0 +1,12 @@
+name: Test Sub-Theme that extends eCMS Theme
+description: "Proof of concept custom sub-theme that extends the State of Rhode Island's eCMS theme"
+type: theme
+core_version_requirement: '^9 || ^10'
+base theme: ecms
+
+version: 1.x
+
+libraries:
+  - 'ecms_profile/ecms_base/themes/custom/ecms':
+      remote: 'https://github.com/State-of-Rhode-Island-eCMS/ecms_profile.git'
+      version: '1.x'
