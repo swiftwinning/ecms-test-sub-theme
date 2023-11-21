@@ -1,0 +1,12 @@
+{
+  "name": "swiftwinning/ecms_test_sub_theme",
+  "type": "drupal-theme",
+  "description": "Proof of concept custom sub-theme that extends the State of Rhode Island's eCMS theme",
+  "authors": [
+    {
+      "name": "Jeff Winning",
+      "email": "jwinning@oomphinc.com"
+    }
+  ],
+  "require": {}
+}
